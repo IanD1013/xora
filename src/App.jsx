@@ -2,6 +2,7 @@ import Header from "./sections/Header.jsx";
 import Hero from "./sections/Hero.jsx";
 import Features from "./sections/Features.jsx";
 import Pricing from "./sections/Pricing.jsx";
+import Faq from "./sections/Faq.jsx";
 
 export default function App() {
   return (
@@ -10,6 +11,7 @@ export default function App() {
       <Hero />
       <Features />
       <Pricing />
+      <Faq />
     </main>
   );
 }
